@@ -9,6 +9,7 @@ Universitas Negeri Malang
 Disiapkan Oleh :
 Kiroomin Muqorrobin               150525604136
 Miftakhul Anggita Bima Ferdynand  150535602555 
+Kiki Rizki Amalinda               150535604813
 
 JURUSAN TEKNIK ELEKTRO
 FAKULTAS TEKNIK
@@ -94,3 +95,10 @@ Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai beriku
 New York : IEEE
 • Pressman, Roger S.2001. Software engineering: a practitioner’s approach 5th ed. 
 New York : McGraw-Hill Companies,Inc
+
+1.6 Ikhtisar
+
+
+2.1 Deskripsi Umum Sistem
+Syntek Radit adalah aplikasi berbasis android yang dapat mendeteksi tingkat radikalisme seseorang terutama Mahasiswa Universitas Negeri Malang yang masih berada di semester 1-2. Pengguna dalam hal ini mahasiswa, dapat masuk ke dalam aplikasi. Setelah berhasil masuk, pengguna dapat melihat informasi data dirinya seperti akun media sosial dan tingkat radikalisme yang berhasil di analisa oleh sistem. Selain itu, pengguna dapat mengganti informasi tentang dirinya tetapi data tidak ter-update sebelum data tersebut di verifikasi oleh admin.
+Sistem akan dikelola oleh admin yang bertugas untuk memverifikasi data yang diubah atau dapat memperbarui informasi dari pengguna (mahasiswa) 
