@@ -1,0 +1,96 @@
+SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
+
+Syntek Radit
+(System informasi pendeteksi dini tindakan radikalisme melalui jejak-jejak digital)
+
+untuk:
+Universitas Negeri Malang 
+
+Disiapkan Oleh :
+Kiroomin Muqorrobin               150525604136
+Miftakhul Anggita Bima Ferdynand  150535602555 
+
+JURUSAN TEKNIK ELEKTRO
+FAKULTAS TEKNIK
+UNIVERSITAS NEGERI MALANG
+
+
+
+Daftar Revisi
+No  Tanggal   Diperiksa Oleh    Keterangan singkat perbaikan
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+
+Daftar Isi
+1. Pendahuluan ................................................................................................ 7
+1.1 Tujuan Penulisan Dokumen .................................................................................. 7
+1.2 Lingkup Masalah ........................................................................................... 7
+1.3 Definisi, Istilah dan Singkatan ........................................................................... 7
+1.4 Aturan Penomoran .......................................................................................... 7
+1.5 Referensi ................................................................................................. 8
+
+
+
+1. Pendahuluan
+1.1 Tujuan Penulisan Dokumen
+Dokumen ini ditulis dalam rangka menjabarkan mengenai spesifikasi kebutuhan perangkat lunak yang akan digunakan oleh Universitas 
+Negeri Malang. Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat 
+lunak. Perangkat lunak yang akan dibangun untuk Universitas Negeri Malang bernama Syntek Radit yang merupakan singkatan dari 
+System informasi pendeteksi dini tindakan radikalisme melalui jejak-jejak digital. Dalam rangka membangun perangkat lunak 
+tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya untuk para pengembang dan pembangun 
+perangkat lunak tersebut. 
+
+1.2 Lingkup Masalah
+Syntek Radit adalah sebuah aplikasi pendeteksi berbasis web yang dapat diakses melalui PC / Laptop maupun Mobile. Aplikasi ini 
+berfungsi untuk mendeteksi tindakan radikalisme yang dilakukan oleh mahasiswa. Data-data yang dikelola admin dipertanggungjawabkan
+kepada Universitas Negeri Malang di mana seorang Pegawai PTIK dari Universitas Negeri Malangn akan memantau Syntek Radit dan 
+melakukan observasi serta meminta laporan pertanggungjawaban.
+
+1.3 Definisi, Istilah dan Singkatan
+Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
+
+Tabel 1 Definisi, istilah dan singkatan
+Definisi, Istilah dan/atau Singkatan    Penjelasan
+DFD                                     Data Flow Diagram. Diagram yang menggambarkan aliran data.
+ERD                                     Entity Relationship Diagram. Diagram yang menggambarkan entitas suatu objek beserta 
+                                        relasinya.
+Interface                               Antarmuka antara perangkat lunak dan pengguna
+
+1.4 Aturan Penomoran
+Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. Untuk daftar penamaan perangkat lunak dijelaskan pada tabel 
+dibawah ini :
+
+Tabel 2 Aturan penomoran
+Nama-ID                   Aturan penamaan       Deskripsi
+Kebutuhan fungsional      SRS-F-IN/PR/OUT-xxx   SRS adalah System Requirement Summary, 
+                                                F adalah Fungsional 
+                                                IN menunjukkan operasi Input
+                                                PR menunjukkan operasi Proses
+                                                OUT menunjukkan output 
+                                                xxx adalah nomor SRS
+Kebutuhan non fungsional  SRS-NF-IN/PR/OUT-xxx  SRS adalah System Requirement Summary
+                                                NF adalah non-Fungsional
+                                                IN menunjukkan operasi Input
+                                                PR menunjukkan operasi Proses
+                                                OUT menunjukkan operasi Output
+                                                xxx adalah nomor SRS
+Bubble                    DFD-X-Y.Z             DFD adalah Data Flow Diagram
+                                                X adalah nomor level diagram
+                                                Y.Z adalah nomer pada buble diagram
+                                                
+1.5 Referensi
+Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai berikut:
+• IEEE. 1998. IEEE Recommended Practice for Software Requirement Specification.
+New York : IEEE
+• Pressman, Roger S.2001. Software engineering: a practitioner’s approach 5th ed. 
+New York : McGraw-Hill Companies,Inc
