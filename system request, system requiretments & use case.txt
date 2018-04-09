@@ -1,0 +1,39 @@
+Tugas 1 (system request)
+
+ Nama Project		: System informasi pendeteksi dini tindakan radikalisme melalui jejak-jejak digital
+ Project Sponsor	: Universitas Negeri Malang 
+ Business Needs		: - Mengurangi tindakan-tindakan radikalisme di masa depan
+   			  - Mengurangi presentase radikalisme
+ Business Requirements	: - Menyediakan informasi mengenai data mahasiswa/sesorang (facebook, twitter, dll) yang memicu tindakan radikalisme
+ 			  - Menyediakan persentase radikalisme dari mahasiswa/sesorang
+ Business Value		: - Mengurangi tindakan radikalisme menuju ke 0%
+ 			  - Mempertinggi nilai keamanan dalam lingkungan universitas
+ Special issues		: - System dibangun menggunakan bahasa html dan java script
+ 			  - System dibangun dengan web responsive
+
+Tugas 2
+
+Kebutuhan Fungsional
+ System dapat terhubung dengan data media sosial mahasiswa seperti facebook, twitter, dll.
+ System dapat menampilkan data media social mahasiswa yang mengarah pada tindakan atau kata – kata radikalisme
+ System dapat me-ranking persentase tindakan radikalisme yang dilakukan mahasiswa
+
+Kebutuhan Non-Fungsional
+ System menggunakan tampilan web responsive
+ System dapat dijalankansi seluruh web browser
+ Memiliki tampilan yang sederhana dan mudah untuk difahami
+ Pengamanan system menggunakan fitur TLS atau SSL
+ System dapat menjaga privasi user.
+
+Tugas 3
+ Use case name 	: Data Mahasiswa
+ Actor		: Pegawai PTIK Universitas Negeri Malang 
+ Description	: Pegawai PTIK Unversitas Negeri Malang dapat melihat data mahasiswa mana yang kedepannya akan menimbulkan tindakan-tindakan radikalisme, disini maksuda dari data mahasiswa adalah kata-kata yang berhubungan dengan radikasle di sosmed mahasiswa (contoh: Turunkan rector Universitas Negeri Malang)
+ Trigger	: Pihak Universitas ingin mencegah tindakan-tindakan yang kedepannya akan menimbulkan tindakan radikalisme
+ Type		: External
+ Precondition	: Membuka aplikasi
+ Normal Course	: - User menuliskan akun medsos mahasiswa
+		  - User menekan tombol submit u
+ Post Condition	: System menampilkan presentase radikalisme mahasiswa dan menampilkan data/kata yang mengacuh pada tindakan radikalisme
+ Exceptions	: - System menampilkan pop up “Data mahasiswa tidak ada”
+ 		  - Browser menampilkan tulisan request time-out
