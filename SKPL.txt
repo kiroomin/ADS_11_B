@@ -98,7 +98,44 @@ New York : McGraw-Hill Companies,Inc
 
 1.6 Ikhtisar
 
-
+2. Deskripsi Umum Perangkat Lunak
 2.1 Deskripsi Umum Sistem
 Syntek Radit adalah aplikasi berbasis android yang dapat mendeteksi tingkat radikalisme seseorang terutama Mahasiswa Universitas Negeri Malang yang masih berada di semester 1-2. Pengguna dalam hal ini mahasiswa, dapat masuk ke dalam aplikasi. Setelah berhasil masuk, pengguna dapat melihat informasi data dirinya seperti akun media sosial dan tingkat radikalisme yang berhasil di analisa oleh sistem. Selain itu, pengguna dapat mengganti informasi tentang dirinya tetapi data tidak ter-update sebelum data tersebut di verifikasi oleh admin.
 Sistem akan dikelola oleh admin yang bertugas untuk memverifikasi data yang diubah atau dapat memperbarui informasi dari pengguna (mahasiswa) 
+
+2.2 Karakteristik Pengguna
+2.3 Batasan
+2.4 Lingkungan Operasi
+
+3. Deskripsi Kebutuhan
+3.1 Kebutuhan Antarmuka Eksternal
+3.1.1 Antarmuka Pemakai
+3.1.2 Antarmuka Perangkat Keras
+3.1.3 Antarmuka Perangkat Lunak
+3.1.4 Antarmuka Komunikasi
+
+3.2 Kebutuhan Fungsional
+3.2.1 Diagram Konteks
+
+3.2.2 DFD Level 1
+3.2.2.1 DFD Level 2(Proses Login)
+3.2.2.2 DFD Level 2(Proses Pencarian Data Mahasiswa)
+3.2.2.3 DFD Level 2(Proses Tingkat Radikalisme)
+
+3.2.3 Spesifikasi Proses
+3.2.4 Data Store
+
+3.3 Kebutuhan Data
+3.3.1 E-R Diagram
+
+3.4 Kebutuhan Non Fungsional
+3.5 Batasan Perancangan
+
+3.6 Kerunutan
+3.6.1 Data Store vs E-R
+
+3.7 Ringkasan Kebutuhan
+3.7.1 Kenbutuhan Fungsional
+3.7.2 Kebutuhan Non Fungsional
+
+
