@@ -78,7 +78,7 @@ New York : McGraw-Hill Companies,Inc
 
 2. Deskripsi Umum Perangkat Lunak
 2.1 Deskripsi Umum Sistem
-Syntek Radit adalah aplikasi berbasis android yang dapat mendeteksi tingkat radikalisme seseorang terutama Mahasiswa Universitas Negeri Malang yang masih berada di semester 1-2. Pengguna dalam hal ini mahasiswa, dapat masuk ke dalam aplikasi. Setelah berhasil masuk, pengguna dapat melihat informasi data dirinya seperti akun media sosial dan tingkat radikalisme yang berhasil di analisa oleh sistem. Selain itu, pengguna dapat mengganti informasi tentang dirinya tetapi data tidak ter-update sebelum data tersebut di verifikasi oleh admin.
+Syntek Radit adalah aplikasi berbasis web yang dapat mendeteksi tingkat radikalisme seseorang terutama Mahasiswa Universitas Negeri Malang yang masih berada di semester 1-2. Pengguna dalam hal ini mahasiswa, dapat masuk ke dalam aplikasi. Setelah berhasil masuk, pengguna dapat melihat informasi data dirinya seperti akun media sosial dan tingkat radikalisme yang berhasil di analisa oleh sistem. Selain itu, pengguna dapat mengganti informasi tentang dirinya tetapi data tidak ter-update sebelum data tersebut di verifikasi oleh admin.
 Sistem akan dikelola oleh admin yang bertugas untuk memverifikasi data yang diubah atau dapat memperbarui informasi dari pengguna (mahasiswa) 
 
 2.2 Karakteristik Pengguna
@@ -92,7 +92,7 @@ Sistem akan dikelola oleh admin yang bertugas untuk memverifikasi data yang diub
 2.3 Batasan
 Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Bartasan-batasan tersebut antara lain:
  1. Harus login terlebih dahuli jika ingin melihat informasi mahasiswa yang dicari
- 2. Aplikasi hanya berbasis android
+ 2. Aplikasi hanya berbasis web
  3. Harus tau akun sosmed (facebook & twitter) mahasiswa yang dicari
  4. tidak ada auto correct pada akun mahasiswa, jadi jika penulisan akunnya salah maka tidak akan diproses
  5. data yang diolah hanya berupa data teks, jadi tidak disarankan memakai data dari akun instagram  
@@ -100,34 +100,77 @@ Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Bartas
 2.4 Lingkungan Operasi
 Aplikasi Client Server ini akan berfungsi dengan spesifikasi:
 Server:
- 1. Semua jenis handphone bernasis android
- 2. Harus terinstal aplikasi Radit
+Komputer dengan spesifikasi sebagai berikut
+ 1. Semua jenis komputer berbasis dekstop
+ 2. Harus terinstal browser
  3. harus tersambung dengan internet
  
  Client:
- 1. Semua jenis handphone bernasis android
- 2. Harus terinstal aplikasi Radit
+ 1. Semua jenis komputer berbasis dekstop
+ 2. Harus terinstal browser
  3. Harus tersambung dengan internet
  
 
 3. Deskripsi Kebutuhan
 3.1 Kebutuhan Antarmuka Eksternal
 Sistem Informasi ini membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut:
+
 3.1.1 Antarmuka Pemakai
 User interface yang digunakan untuk mengoperasikan Perangkat Lunak Syntek Radit antara lain:
-* Tampilan awal web
-* Tampilan sign in
-* Tampilan input data
-* Tampilan informasi user
+ 1. Tampilan awal web
+ 2. Tampilan sign in
+ 3. Tampilan input data
+ 4. Tampilan informasi user
 Alat-alat yang mendukung antarmuka pemakai :
-* Keyboard
-* Mouse
-* Monitor
-3.1.2 Antarmuka Perangkat Keras
-3.1.3 Antarmuka Perangkat Lunak
-3.1.4 Antarmuka Komunikasi
+ 1. Keyboard
+ 2. Mouse
+ 3. Monitor
 
+3.1.2 Antarmuka Perangkat Keras
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak ini antara lain:
+ 1. Monitor
+ 2. Keyboard
+ 3. Mouse 
+ 
+3.1.3 Antarmuka Perangkat Lunak
+Antarmuka perangkat lunak yang digunakan unruk mengoperasikan perangkat lunak ini antara lain
+ 1. Browser
+
+3.1.4 Antarmuka Komunikasi
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak ini antara lain:
+ 1. Kabel LAN UTP RJ-45
+ 2. ASDL modem
+ 3. Kabel telepon 
+ 
 3.2 Kebutuhan Fungsional
+----------------------------------------------------------------------------------------------------------------------------------------
+|ID             | Kebutuhan                                      | Penjelasan                                                          |
+----------------------------------------------------------------------------------------------------------------------------------------
+|SRS-F-OUT-001  | Browser dapat menampilkan form sign in         | Pengguna yang telah terdaftar dapat melakukan sign in sehingga dapat| |               |                                                | login ke dalam sistem                                               |
+|SRS-F-IN-002   | Sistem dapat menerima masukan username         | Username dan password yang dimasukan user harus dapat diterima oleh |
+|               | dan password                                   | sistem agar dapat login                                             |
+|SRS-F-OUT-003  | Browser dapat menampilkan form entri           | Pengguna yang belum terdaftar harus melakukan register terlebih     | 
+|               | register                                       | dahulu agar dapat login                                             |
+|SRS-F-IN-004   | Sistem dapat menerima data entri dari          | Data entri berupa username dan password yang dimasukan user harus   | 
+|               | user, berupa username dan password             | dapat diterima oleh sistem agar dapat digunakan didalam form sign in|
+|SRS-F-PR-005   | Sistem dapat menyimpan data entri register     | Setelah pengguna memasukan data username dan password di form       |
+|               |                                                | register, sistem menyimpan data entri tersebut                      |
+|SRS-F-OUT-006  | Browser dapat menampilkan form entri data      | Setelah user berhasil login, sistem menampilkan form entri yang     |
+|               | mahasiswa yang ingin dicari                    | berisi nama, nim, prodi, facebook, dan twitter dari mahasiswa yang  |
+|               |                                                | ingin dicari tingkatan radikalisme beserta informasinya             |
+|SRS-F-IN-007   | Sistem dapat menerima data entri dari user,    | Data entri yang dimasukan oleh user harus dapat diterima oleh sistem|
+|               | berupa akun sosmed mahasiswa                   | terutama pada akun sosmed mahasiswa. penulisan pada kolom ini harus |
+|               |                                                | benar penulisannya, karna sisitem tidak ada auto corect             |
+|SRS-F-PR-008   | Sistem dapat menyimpan data dari akun sosmed   | Jika data entri berhasil dimasukan sistem akan menyimpan data yang  |
+|               | mahasiswa                                      | mengandung kata radikalisme pada akun sosmed mahasiswa untuk di     |
+|               |                                                | proses tingkat radikalismenya                                       |
+|SRS-F-OUT-009  | Browser dapat menampilkan hasil radikalisme    | Setelah sistem melakukan proses pencarian kata yang mengandung      |
+|               |                                                | radikalismenya, sistem akan melakukan perhitungan berapa persen     |
+|               |                                                | tingkat radikalisme dari mahasiswa tersebut                         |
+|SRS-F-OUT-0010 | Browser dapat meanampilkan informasi mahasiswa | Jika user ingin mengetahui informasi tentang data mahasiswa tersebut| 
+|               |                                                | , user dapat melihatnya                                             |
+----------------------------------------------------------------------------------------------------------------------------------------
+
 3.2.1 Diagram Konteks
 
 3.2.2 DFD Level 1
@@ -136,8 +179,17 @@ Alat-alat yang mendukung antarmuka pemakai :
 3.2.2.3 DFD Level 2(Proses Tingkat Radikalisme)
 
 3.2.3 Spesifikasi Proses
-3.2.4 Data Store
 
+3.2.4 Data Store
+----------------------------------------------------------------------------------------------------------------------------------------
+|Data Store     | Deskripsi                                                                                                            |
+----------------------------------------------------------------------------------------------------------------------------------------
+|Data User      | Ketika pengguna selesai melakukan proses register, maka data akan tersimpan pada store ini. dimana data hanya berupa |
+|               | username dan password dari user
+|Data Mahasiswa | Berisi deskripsi data mahasiswa. Seperti Nama, Nim, Prodi, Facebook, dan Twitter dari mahasiswa yang dicari          |
+|               | informasinya                                                                                                         |
+|Data Sosmed    | Berisi data hasil pencarian kata radikalisme dari akun sosmed mahaiswa                                               |
+----------------------------------------------------------------------------------------------------------------------------------------
 3.3 Kebutuhan Data
 3.3.1 E-R Diagram
 
