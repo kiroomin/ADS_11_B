@@ -17,18 +17,10 @@ UNIVERSITAS NEGERI MALANG
 
 1. Pendahuluan
 1.1 Tujuan Penulisan Dokumen
-Dokumen ini ditulis dalam rangka menjabarkan mengenai spesifikasi kebutuhan perangkat lunak yang akan digunakan oleh Universitas 
-Negeri Malang. Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat 
-lunak. Perangkat lunak yang akan dibangun untuk Universitas Negeri Malang bernama Syntek Radit yang merupakan singkatan dari 
-System informasi pendeteksi dini tindakan radikalisme melalui jejak-jejak digital. Dalam rangka membangun perangkat lunak 
-tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya untuk para pengembang dan pembangun 
-perangkat lunak tersebut. 
+Dokumen ini ditulis dalam rangka menjabarkan mengenai spesifikasi kebutuhan perangkat lunak yang akan digunakan oleh Universitas Negeri Malang. Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. Perangkat lunak yang akan dibangun untuk Universitas Negeri Malang bernama Syntek Radit yang merupakan singkatan dari System informasi pendeteksi dini tindakan radikalisme melalui jejak-jejak digital. Dalam rangka membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya untuk para pengembang dan pembangun perangkat lunak tersebut. 
 
 1.2 Lingkup Masalah
-Syntek Radit adalah sebuah aplikasi pendeteksi berbasis web yang dapat diakses melalui PC / Laptop maupun Mobile. Aplikasi ini 
-berfungsi untuk mendeteksi tindakan radikalisme yang dilakukan oleh mahasiswa. Data-data yang dikelola admin dipertanggungjawabkan
-kepada Universitas Negeri Malang di mana seorang Pegawai PTIK dari Universitas Negeri Malangn akan memantau Syntek Radit dan 
-melakukan observasi serta meminta laporan pertanggungjawaban.
+Syntek Radit adalah sebuah aplikasi pendeteksi berbasis web yang dapat diakses melalui PC / Laptop maupun Mobile. Aplikasi ini berfungsi untuk mendeteksi tindakan radikalisme yang dilakukan oleh mahasiswa. Data-data yang dikelola admin dipertanggungjawabkan kepada Universitas Negeri Malang di mana seorang Pegawai PTIK dari Universitas Negeri Malangn akan memantau Syntek Radit dan melakukan observasi serta meminta laporan pertanggungjawaban.
 
 1.3 Definisi, Istilah dan Singkatan
 Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
@@ -43,8 +35,7 @@ Tabel 1 Definisi, istilah dan singkatan
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 1.4 Aturan Penomoran
-Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. Untuk daftar penamaan perangkat lunak dijelaskan pada tabel 
-dibawah ini :
+Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. Untuk daftar penamaan perangkat lunak dijelaskan pada tabel dibawah ini :
 
 Tabel 2 Aturan penomoran
 -------------------------------------------------------------------------------------------
@@ -171,14 +162,12 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak in
 |               |                                                | , user dapat melihatnya                                             |
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-3.2.1 Diagram Konteks
-
-3.2.2 DFD Level 1
-3.2.2.1 DFD Level 2(Proses Login)
-3.2.2.2 DFD Level 2(Proses Pencarian Data Mahasiswa)
-3.2.2.3 DFD Level 2(Proses Tingkat Radikalisme)
-
-3.2.3 Spesifikasi Proses
+3.2.1 Diagram Konteks (belum)
+3.2.2 DFD Level 1 (belum)
+3.2.2.1 DFD Level 2(Proses Login) (belum)
+3.2.2.2 DFD Level 2(Proses Pencarian Data Mahasiswa) (belum)
+3.2.2.3 DFD Level 2(Proses Tingkat Radikalisme) (belum)
+3.2.3 Spesifikasi Proses (belum)
 
 3.2.4 Data Store
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -190,17 +179,28 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak in
 |               | informasinya                                                                                                         |
 |Data Sosmed    | Berisi data hasil pencarian kata radikalisme dari akun sosmed mahaiswa                                               |
 ----------------------------------------------------------------------------------------------------------------------------------------
-3.3 Kebutuhan Data
-3.3.1 E-R Diagram
 
-3.4 Kebutuhan Non Fungsional
+3.3 Kebutuhan Data (belum)
+3.3.1 E-R Diagram (belum)
+3.4 Kebutuhan Non Fungsional (belum)
+
 3.5 Batasan Perancangan
-
+Batasan Perancangan yang dipakai dalam pengembangan sistem Radit antara lain
+ 1. Tamplan Web dibuat denagn menggunakan photoshop dan corel draw
+ 2. Text editor yang digunakan adalah text dan/atai notepad++
+ 3. Bahasa pemrograman yang dipakai adalah html dan php
+ 4. database yang dipakai adalah mysql
+ 
 3.6 Kerunutan
-3.6.1 Data Store vs E-R
+Suatu  perangkat  lunak  yang  baik  memiliki  kebutuhan  fungsional  yang  dapat  dirunut  model  analisisnya.  Berikut  ini  adalah tabel  yang  berisi  traceability  dari  hasil  analisis kebutuhan perangkat lunak yang dibangun.
+
+3.6.1 Kebutuhan Fungsional vs Proses (belum)
+3.6.2 Data Store vs E-R (belum)
 
 3.7 Ringkasan Kebutuhan
-3.7.1 Kenbutuhan Fungsional
-3.7.2 Kebutuhan Non Fungsional
+Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan pada sistem radit
+
+3.7.1 Kenbutuhan Fungsional (belum)
+3.7.2 Kebutuhan Non Fungsional (belum)
 
 
