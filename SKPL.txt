@@ -107,7 +107,17 @@ Server:
 
 3. Deskripsi Kebutuhan
 3.1 Kebutuhan Antarmuka Eksternal
+Sistem Informasi ini membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut:
 3.1.1 Antarmuka Pemakai
+User interface yang digunakan untuk mengoperasikan Perangkat Lunak Syntek Radit antara lain:
+* Tampilan awal web
+* Tampilan sign in
+* Tampilan input data
+* Tampilan informasi user
+Alat-alat yang mendukung antarmuka pemakai :
+* Keyboard
+* Mouse
+* Monitor
 3.1.2 Antarmuka Perangkat Keras
 3.1.3 Antarmuka Perangkat Lunak
 3.1.4 Antarmuka Komunikasi
