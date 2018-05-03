@@ -185,9 +185,22 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak in
 |Data Sosmed    | Berisi data hasil pencarian kata radikalisme dari akun sosmed mahaiswa                                               |
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-3.3 Kebutuhan Data (belum)
+3.3 Kebutuhan Data
 3.3.1 E-R Diagram (belum)
-3.4 Kebutuhan Non Fungsional (belum)
+
+3.4 Kebutuhan Non Fungsional
+-----------------------------------------------------------------------------------------------------------------
+|ID            | Parameter     | Deskripsi                                                                      |
+-----------------------------------------------------------------------------------------------------------------
+|SRS-F-OUT-011 | Availability  | Sistem tidak harus beroperasi terus-menerus                                    |
+|SRS-F-PR-012  | Reliability   | Jika user salah memasukan alamat akun mashasiswa, maka sistem tidak akan jalan |
+|SRS-F-OUT-013 | Ergonomy      | Tampilan antarmuka wed radit bersiat usebility                                 |
+|SRS-F-OUT-014 | Portability   | Sistem dapat dipakai di semua platform yang sudah terinstall browser           |
+|SRS-F-PR-015  | Memory        | Sistem dapat menyimpan username dan password (cookies)                         |
+|SRS-F-PR-016  | Response time | Sistem membutuhkan waktu yang lama untuk mencari data, kurang lebih 30 detik   |
+|              | Safety        | N/A                                                                            |
+|SRS-F-PR-017  | Security      | Perangkat lunak menggunakan standar enkripsi HTTPS                             |
+-----------------------------------------------------------------------------------------------------------------
 
 3.5 Batasan Perancangan
 Batasan Perancangan yang dipakai dalam pengembangan sistem Radit antara lain
@@ -205,8 +218,32 @@ Suatu  perangkat  lunak  yang  baik  memiliki  kebutuhan  fungsional  yang  dapa
 3.7 Ringkasan Kebutuhan
 Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan pada sistem radit
 
-3.7.1 Kenbutuhan Fungsional (belum)
-3.7.2 Kebutuhan Non Fungsional 
- 
+3.7.1 Kenbutuhan Fungsional
+--------------------------------------------------------------------------------------------
+|ID             | Deskripsi                                                                |
+--------------------------------------------------------------------------------------------
+|SRS-F-OUT-001  | Browser dapat menampilkan form sign in                                   |
+|SRS-F-IN-002   | Sistem dapat menerima masukan username dan password                      |
+|SRS-F-OUT-003  | Browser dapat menampilkan form entri register                            |
+|SRS-F-IN-004   | Sistem dapat menerima data entri dari user, berupa username dan password |
+|SRS-F-PR-005   | Sistem dapat menyimpan data entri register                               | 
+|SRS-F-OUT-006  | Browser dapat menampilkan form entri data mahasiswa yang ingin dicari    |
+|SRS-F-IN-007   | Sistem dapat menerima data entri dari user, berupa akun sosmed mahasiswa |
+|SRS-F-PR-008   | Sistem dapat menyimpan data dari akun sosmed                             |
+|SRS-F-OUT-009  | Browser dapat menampilkan hasil radikalisme                              |
+|SRS-F-OUT-0010 | Browser dapat meanampilkan informasi mahasiswa                           |
+--------------------------------------------------------------------------------------------
 
+3.7.2 Kebutuhan Non Fungsional 
+-------------------------------------------------------------------------------------------------
+|ID            | Deskripsi                                                                      |
+-------------------------------------------------------------------------------------------------
+|SRS-F-OUT-011 | Sistem tidak harus beroperasi terus-menerus                                    |
+|SRS-F-PR-012  | Jika user salah memasukan alamat akun mashasiswa, maka sistem tidak akan jalan |
+|SRS-F-OUT-013 | Tampilan antarmuka wed radit bersiat usebility                                 |
+|SRS-F-OUT-014 | Sistem dapat dipakai di semua platform yang sudah terinstall browser           |
+|SRS-F-PR-015  | Sistem dapat menyimpan username dan password (cookies)                         |
+|SRS-F-PR-016  | Sistem membutuhkan waktu yang lama untuk mencari data, kurang lebih 30 detik   |
+|SRS-F-PR-017  | Perangkat lunak menggunakan standar enkripsi HTTPS                             |
+-------------------------------------------------------------------------------------------------
 
