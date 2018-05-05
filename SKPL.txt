@@ -167,7 +167,7 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak in
 |               |                                                | , user dapat melihatnya                                             |
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-3.2.1 Diagram Konteks (belum)
+3.2.1 Diagram Konteks
 3.2.2 DFD Level 1 (belum)
 3.2.2.1 DFD Level 2(Proses Login) (belum)
 3.2.2.2 DFD Level 2(Proses Pencarian Data Mahasiswa) (belum)
