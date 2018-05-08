@@ -168,11 +168,33 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak in
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 3.2.1 Diagram Konteks
-3.2.2 DFD Level 1 (belum)
-3.2.2.1 DFD Level 2(Proses Login) (belum)
-3.2.2.2 DFD Level 2(Proses Pencarian Data Mahasiswa) (belum)
-3.2.2.3 DFD Level 2(Proses Tingkat Radikalisme) (belum)
-3.2.3 Spesifikasi Proses (belum)
+3.2.2 DFD Level 0
+  https://drive.google.com/open?id=1R1eawPMTBjpqcFj1MbRMYalCXPylLTdn
+  
+3.2.2.1 DFD Level 1(Proses Login dan Sign Up)
+  https://drive.google.com/open?id=1hUAkhpz3aYso2pAbP1YmMPut1o41N9x-
+  
+3.2.2.2 DFD Level 1(Proses Pencarian Data Mahasiswa)
+  https://drive.google.com/open?id=1oakH7KBrLj7tEmM1-2KZWQ3eQSFBg_Ud
+  
+3.2.2.3 DFD Level 1(Proses Tingkat Radikalisme)
+  https://drive.google.com/open?id=1GNJcrFN2ML7k6NAACmmB-d-kxP59c7fo
+  
+3.2.3 Spesifikasi Proses
+----------------------------------------------------------------------------------------------------------------------------------------
+|Kode buble | Deskripsi                                                                                                                |
+----------------------------------------------------------------------------------------------------------------------------------------
+|DFD-0-1    | Proses ini merupakan gambaran sistem secara keseluruhan. Melibatkan terminator serta data flow yang keluar-masuk kedalam |
+|           | sistem. Buble 0 akan dideskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran secara lebih rinci dan      |
+|           | spesifik                                                                                                                 |
+|DFD-1-1    | Proses ini akan terjadi ketika user memilih menu masuk dan daftar. User yang belum terdaftar dapat melakukan registrasi  |
+|           | sehingga data hasil registrasi tersebut akan tersimpan pada data pembeli dan user yang sudah terdaftar dapat langsung    |
+|           | masuk ke dalam sistem                                                                                                    |
+|DFD-1-2    | User yang telah terdaftar dapat masuk kedalam sistem selanjutnya. proses ini menerima input dari user, inputan ini       |
+|           | digunakan untuk proses pencarian data                                                                                    |
+|DFD-1-3    | Proses ini memerlukan data inputan dari proses sebelumnya agar bsia melakukan proses perhitungan. Setelah keluar dari    |
+|           | proses ini, akan ditampilkan hasil berupa persentase dan juga data-datanya yang sudah diklasifikasikan                   |
+----------------------------------------------------------------------------------------------------------------------------------------
 
 3.2.4 Data Store
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -212,7 +234,23 @@ Batasan Perancangan yang dipakai dalam pengembangan sistem Radit antara lain
 3.6 Kerunutan
 Suatu  perangkat  lunak  yang  baik  memiliki  kebutuhan  fungsional  yang  dapat  dirunut  model  analisisnya.  Berikut  ini  adalah tabel  yang  berisi  traceability  dari  hasil  analisis kebutuhan perangkat lunak yang dibangun.
 
-3.6.1 Kebutuhan Fungsional vs Proses (belum)
+3.6.1 Kebutuhan Fungsional vs Proses 
+Mapping kebutuhan fungsional dengan proses pada DFD untuk system Radit adalah sebagai berikut
+--------------------------------------------------
+|ID Kebutuhan Fungsional | Nomor Proses pada DFD |
+--------------------------------------------------
+|SRS-F-OUT-001           | DFD.2.2.1             |
+|SRS-F-IN-002            | DFD.2.2.1             |
+|SRS-F-OUT-003           | DFD.2.2.1             |
+|SRS-F-IN-004            | DFD.2.2.1             |
+|SRS-F-PR-005            | DFD.2.2.1             |
+|SRS-F-OUT-006           | DFD.2.2.2             |
+|SRS-F-IN-007            | DFD.2.2.2             |
+|SRS-F-PR-008            | DFD.2.2.2             |
+|SRS-F-OUT-009           | DFD.2.2.3             |
+|SRS-F-OUT-0010          | DFD.2.2.3             |
+--------------------------------------------------
+
 3.6.2 Data Store vs E-R (belum)
 
 3.7 Ringkasan Kebutuhan
@@ -231,7 +269,7 @@ Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsi
 |SRS-F-IN-007   | Sistem dapat menerima data entri dari user, berupa akun sosmed mahasiswa |
 |SRS-F-PR-008   | Sistem dapat menyimpan data dari akun sosmed                             |
 |SRS-F-OUT-009  | Browser dapat menampilkan hasil radikalisme                              |
-|SRS-F-OUT-0010 | Browser dapat meanampilkan informasi mahasiswa                           |
+|SRS-F-OUT-0010 | Browser dapat menampilkan informasi mahasiswa                           |
 --------------------------------------------------------------------------------------------
 
 3.7.2 Kebutuhan Non Fungsional 
