@@ -100,6 +100,9 @@ Komputer dengan spesifikasi sebagai berikut
  1. Semua jenis komputer berbasis dekstop
  2. Harus terinstal browser
  3. harus tersambung dengan internet
+ 4. DBMS (Database Management System) minimal MySQL 5.0.20 ke atas
+ 5. Koneksi internet dengan bandwidth minimal 1 Mbps
+
  
  Client:
  1. Semua jenis komputer berbasis dekstop
@@ -114,7 +117,7 @@ Sistem Informasi ini membutuhkan fasilitas-fasilitas antar muka eksternal sebaga
 3.1.1 Antarmuka Pemakai
 User interface yang digunakan untuk mengoperasikan Perangkat Lunak Syntek Radit antara lain:
  1. Tampilan awal web
- 2. Tampilan sign in
+ 2. Tampilan sign in / sign up
  3. Tampilan input data
  4. Tampilan informasi user
 Alat-alat yang mendukung antarmuka pemakai :
@@ -124,9 +127,9 @@ Alat-alat yang mendukung antarmuka pemakai :
 
 3.1.2 Antarmuka Perangkat Keras
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak ini antara lain:
- 1. Monitor
- 2. Keyboard
- 3. Mouse 
+ 1. Kabel LAN UTP RJ-45
+ 2. ASDL modem
+ 3. Kabel telepon 
  
 3.1.3 Antarmuka Perangkat Lunak
 Antarmuka perangkat lunak yang digunakan unruk mengoperasikan perangkat lunak ini antara lain
