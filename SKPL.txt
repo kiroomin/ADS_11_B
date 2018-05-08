@@ -142,7 +142,8 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak in
 ----------------------------------------------------------------------------------------------------------------------------------------
 |ID             | Kebutuhan                                      | Penjelasan                                                          |
 ----------------------------------------------------------------------------------------------------------------------------------------
-|SRS-F-OUT-001  | Browser dapat menampilkan form sign in         | Pengguna yang telah terdaftar dapat melakukan sign in sehingga dapat| |               |                                                | login ke dalam sistem                                               |
+|SRS-F-OUT-001  | Browser dapat menampilkan form sign in         | Pengguna yang telah terdaftar dapat melakukan sign in sehingga dapat|
+|               |                                                | login ke dalam sistem                                               |
 |SRS-F-IN-002   | Sistem dapat menerima masukan username         | Username dan password yang dimasukan user harus dapat diterima oleh |
 |               | dan password                                   | sistem agar dapat login                                             |
 |SRS-F-OUT-003  | Browser dapat menampilkan form entri           | Pengguna yang belum terdaftar harus melakukan register terlebih     | 
@@ -251,7 +252,16 @@ Mapping kebutuhan fungsional dengan proses pada DFD untuk system Radit adalah se
 |SRS-F-OUT-0010          | DFD.2.2.3             |
 --------------------------------------------------
 
-3.6.2 Data Store vs E-R (belum)
+3.6.2 Data Store vs E-R
+Mapping data store pada DFD dengan Entity-Relasi untuk sistem Radit adalah sebagai berikut:
+--------------------------------------
+|Data Store     |  Entity   | Relasi |
+--------------------------------------
+|Data User      | Users     |        |
+|Data Mahasiswa | Mahasiswa |        |
+|Data Sosmed    | Mahasiswa |        |
+--------------------------------------
+
 
 3.7 Ringkasan Kebutuhan
 Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan pada sistem radit
