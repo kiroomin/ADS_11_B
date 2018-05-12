@@ -172,17 +172,19 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak in
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 3.2.1 Diagram Konteks
-3.2.2 DFD Level 0
-  https://drive.google.com/open?id=1R1eawPMTBjpqcFj1MbRMYalCXPylLTdn
+https://drive.google.com/open?id=1cvRanVoKWSOqN8-eKgmZJFEbQXUc8h5z
+
+3.2.2 DFD Level 
+  https://drive.google.com/open?id=11B_0z43BQh4AB5EN32NIJS2p4cYnNGwk
   
-3.2.2.1 DFD Level 1(Proses Login dan Sign Up)
-  https://drive.google.com/open?id=1hUAkhpz3aYso2pAbP1YmMPut1o41N9x-
+3.2.2.1 DFD Level 2(Proses Login dan Sign Up)
+  https://drive.google.com/open?id=109gD2qY_MsK2SWI_eQXVBLvJzeM2EsfB
   
-3.2.2.2 DFD Level 1(Proses Pencarian Data Mahasiswa)
-  https://drive.google.com/open?id=1oakH7KBrLj7tEmM1-2KZWQ3eQSFBg_Ud
+3.2.2.2 DFD Level 2(Proses Pencarian Data Mahasiswa)
+ https://drive.google.com/open?id=1rM1IiVyTGd8Hs1kd0nkzOuDah2jxGP_p
   
-3.2.2.3 DFD Level 1(Proses Tingkat Radikalisme)
-  https://drive.google.com/open?id=1GNJcrFN2ML7k6NAACmmB-d-kxP59c7fo
+3.2.2.3 DFD Level 2(Proses Tingkat Radikalisme)
+ https://drive.google.com/open?id=1wOB2WxuSdL8xzmSfLK7YVtzLV4q4ewvH
   
 3.2.3 Spesifikasi Proses
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -213,7 +215,8 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak in
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 3.3 Kebutuhan Data
-3.3.1 E-R Diagram (belum)
+3.3.1 E-R Diagram 
+https://drive.google.com/open?id=1nPmecZfGiGq6SO6ka8PYic1RPpdI5m7V
 
 3.4 Kebutuhan Non Fungsional
 -----------------------------------------------------------------------------------------------------------------
@@ -285,7 +288,7 @@ Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsi
 |SRS-F-IN-007   | Sistem dapat menerima data entri dari user, berupa akun sosmed mahasiswa |
 |SRS-F-PR-008   | Sistem dapat menyimpan data dari akun sosmed                             |
 |SRS-F-OUT-009  | Browser dapat menampilkan hasil radikalisme                              |
-|SRS-F-OUT-0010 | Browser dapat menampilkan informasi mahasiswa                           |
+|SRS-F-OUT-0010 | Browser dapat menampilkan informasi mahasiswa                            |
 --------------------------------------------------------------------------------------------
 
 3.7.2 Kebutuhan Non Fungsional 
