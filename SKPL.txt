@@ -258,13 +258,14 @@ Mapping kebutuhan fungsional dengan proses pada DFD untuk system Radit adalah se
 
 3.6.2 Data Store vs E-R
 Mapping data store pada DFD dengan Entity-Relasi untuk sistem Radit adalah sebagai berikut:
---------------------------------------
-|Data Store     |  Entity   | Relasi |
---------------------------------------
-|Data User      | Users     |        |
-|Data Mahasiswa | Mahasiswa |        |
-|Data Sosmed    | Mahasiswa |        |
---------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+|Data Store     |  Entity                                                    | Relasi                              |                                             
+--------------------------------------------------------------------------------------------------------------------
+|Data User      | Pelanggan                                                  |                                     |
+|Data Pencarian | Pelanggan, Pencarian, Form_Pencarian, Data, Data_Pendukung | penariannya, terdiri_dari, datanya, |  dicocokkan_dengan |
+|Data Mahasiswa | Data, Data_Pendukung                                       | datanya, dicocokkan_dengan          |
+|Data Sosmed    | Data, Data_Pendukung                                       | datanya, dicocokkan_dengan          |
+--------------------------------------------------------------------------------------------------------------------
 
 
 3.7 Ringkasan Kebutuhan
