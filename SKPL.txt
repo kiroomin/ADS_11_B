@@ -206,8 +206,8 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak in
 ----------------------------------------------------------------------------------------------------------------------------------------
 |Data User      | Ketika pengguna selesai melakukan proses register, maka data akan tersimpan pada store ini. dimana data hanya berupa |
 |               | username dan password dari user                                                                                      |
-|Data Pencarian | Berisi deskripsi pencarian data radikalisme. Seperti Nama, Facebook, Twitter |
-|Data Mahasiswa | Berisi deskripsi data mahasiswa. Seperti Nama, Nim, Prodi, dari mahasiswa yang dicari          |
+|Data Pencarian | Berisi deskripsi pencarian data radikalisme. Seperti Nama, Facebook, Twitter                                    |     
+|Data Mahasiswa | Berisi deskripsi data mahasiswa. Seperti Nama, Nim, Prodi, dari mahasiswa yang dicari                           |
 |               | informasinya                                                                                                         |
 |Data Sosmed    | Berisi data hasil pencarian kata radikalisme dari akun sosmed mahaiswa                                               |
 ----------------------------------------------------------------------------------------------------------------------------------------
